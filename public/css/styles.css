@@ -1,0 +1,6 @@
+.login-page, .register-page {
+background: url("back.png") no-repeat center center fixed;
+background-size: cover;
+}
+.psc-footer .btn-danger{ padding: 0px 35px;}
+

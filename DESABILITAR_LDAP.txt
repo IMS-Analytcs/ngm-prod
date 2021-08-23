@@ -1,0 +1,39 @@
+Passos para desabilitar login LDAP para desenvolvimento
+
+1 - Acessar arquivo CONFIG/AUTTH PHP:
+
+ a - Comentar a seguinte estrutura:
+
+       // ESSE PROVIDER DEVE SE HABILIDATADO PARA FUNCIONAR LOGIN COM LDAP
+        // 'users' => [
+        //     'driver' => 'ldap',
+        //     'model' => LdapRecord\Models\ActiveDirectory\User::class,
+        //     'rules' => [],
+        //     'database' => [
+        //         'model' => App\Models\User::class,
+        //         'sync_passwords' => false,
+        //         'sync_attributes' => [
+        //             'name' => 'cn',
+        //             'username' => 'samaccountname',
+        //         ],
+        //     ],
+        // ],
+
+b - Em seguida habilitar o seguinte trecho de codigo:
+
+  	'users' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\User::class,
+        ],
+
+
+
+
+2 - Abrir o arquivo de rotas WEB.PHP:
+
+a - comentar a linha Auth::routes();
+
+3 - Abrir o arquivo Middlware\Perfil.php:
+
+
+definir a variavel $ambiente com o valor 'local'

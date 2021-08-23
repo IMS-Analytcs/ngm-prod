@@ -1,0 +1,126 @@
+.title-dashboard{
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 31px;
+letter-spacing: 0.4px;
+color: #252733;
+}
+
+.cardstyle{
+background: #FFFFFF;
+border: 1px solid #DFE0EB;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.cardstyle:hover .text-card{
+color: #3751FF;
+}
+.cardstyle:hover .content-card{
+color: #3751FF;
+}
+.cardstyle:hover{
+border: 1px solid #3751FF;
+cursor: pointer;
+}
+.cardstyle .text-card{
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 24px;
+color: #9FA2B4;
+}
+.cardstyle .content-card{
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+letter-spacing: 1px;
+color: #252733;
+}
+.chart-text{
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.3px;
+color: #9FA2B4;
+}
+
+.chart-content{
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.3px;
+color: #252733;
+}
+.chart-all {
+    border-bottom: 1px solid #DFE0EB;
+    border-left: 1px solid #DFE0EB;
+    padding: 10px;
+}
+
+.chart-all:last-child{
+  border-bottom: none;
+}
+.card-footer-title{
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 24px;
+letter-spacing: 0.4px;
+color: #252733;
+}
+.card-footer-link{
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #3751FF;
+}
+.table-footer{
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #252733;
+border-bottom: 1px solid #DFE0EB;
+}
+.table-footer button{
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 14px;
+color: #FFFFFF;
+width: 120px;
+}
+
+.table-footer span{
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 20px;
+text-align: right;
+letter-spacing: 0.2px;
+color: #9FA2B4;
+}
+
+.table-footer:last-child{
+border-bottom: none;
+}
